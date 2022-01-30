@@ -1,0 +1,64 @@
+body {
+    background-color: cadetblue;
+}
+header {
+    background-color: brown;
+}
+
+img {
+    max-width: 1600px;
+}
+.msg {
+    background-color: salmon;
+}
+
+#hero-img {
+    width: 500px;
+    height:auto;
+}
+::content {
+margin: 0 auto;
+text-align: center;
+}
+
+#background {
+    height: 725;
+    background-color: thistle;
+}
+
+h1 {
+    font-size: 3em;
+    color: burlywood;
+}
+
+h2 {
+    font-size: 4em;
+}
+h4 {
+    color:white;
+}
+
+nav a:hover {
+    background-color: black;
+}
+.book, .join {
+    background-color: turquoise;
+}
+.book:hover, .join:hover{
+    background-color: wheat;
+}
+footer {
+    background-color: whitesmoke;
+}
+footer h3 {
+    color: lightslategray;
+}
+
+footer a {
+    color:lawngreen;
+}
+
+footer a:hover {
+    color:mediumaquamarine;
+    text-decoration: midnightblue;
+}
