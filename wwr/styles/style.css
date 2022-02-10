@@ -1,5 +1,14 @@
+:root {
+   --primary-color: 
+   --secondary-color:
+   --background-color:
+   --heading-font:
+   --paragraph-font: 
+}
 body {
     background-color: cadetblue;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: brown;
@@ -10,55 +19,139 @@ img {
 }
 .msg {
     background-color: salmon;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color:forestgreen;
+}
+
+.msg p {
+font-size: .8em;
+padding-bottom: 15px;
+color:lemonchiffon;
 }
 
 #hero-img {
     width: 500px;
     height:auto;
 }
-::content {
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+#content {
+    max-width: 1600px;
 margin: 0 auto;
 text-align: center;
 }
 
 #background {
-    height: 725;
+    height: 725px;
     background-color: thistle;
 }
 
 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
     color: burlywood;
 }
 
 h2 {
     font-size: 4em;
+    margin: 0;
 }
 h4 {
     color:white;
 }
+nav a {
+    padding: 35px;
+    text-align: center;
+    color: dimgrey;
+    text-decoration: none;
+}
 
 nav a:hover {
     background-color: black;
+    color:khaki;
 }
+
+.book {
+    border-radius: 5px;
+}
+
 .book, .join {
     background-color: turquoise;
+    color:darkcyan;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: wheat;
+    color:gainsboro;
 }
+.join {
+    border-radius: 5px;
+}
+
 footer {
     background-color: whitesmoke;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: lightslategray;
 }
+footer .social img {
+    padding-top: 15px;
+}
 
 footer a {
     color:lawngreen;
+    text-decoration: none;
 }
 
 footer a:hover {
     color:mediumaquamarine;
     text-decoration: midnightblue;
+}
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+    color:blueviolet;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 80px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+#logo_link {
+    padding-top: 5px;
 }
