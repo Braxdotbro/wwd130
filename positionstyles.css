@@ -57,13 +57,17 @@ grid-template-rows: repeat(5, 50px);
 } 
 .blue2 {
   margin-top: 150px;
-  width: 100px; 
+  width: 100px;
   height: 100px; 
   background-color: blue; 
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display:grid;
+  grid-template-columns: ;
+  grid-column-gap: ;
+  grid-column: ;
 }
 .red3 {
   width: max; 
@@ -130,7 +134,7 @@ grid-template-rows: repeat(5, 50px);
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-
+float:left;
 } 
 .blue5 {
   width: 100px; 
