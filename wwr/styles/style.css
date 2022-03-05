@@ -248,3 +248,7 @@ main section img {
         margin-top: 25px;
     }
 }
+p {
+    font-size: larger;
+    font-weight: 800;
+}
