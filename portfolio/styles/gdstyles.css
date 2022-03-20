@@ -48,6 +48,8 @@ falcon {
 
 h2 {
   font-size: 5em;
+  color: white;
+  justify-content: center;
 }
 nav {
   display: flex;
